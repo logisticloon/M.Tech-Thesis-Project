@@ -18,8 +18,10 @@ def generate(ListofLines):
                     if(x==1): 
                         bugsCovered += 1
                 if(maxbugscovered < bugsCovered):
+                    
                     maxbugscovered = bugsCovered
                     indexCoveringMaxBugs = i
+        
         
         coveredBugsIndexList  = []
         for i in range(len(modifiableFaultMatrix[indexCoveringMaxBugs])):
@@ -30,10 +32,7 @@ def generate(ListofLines):
         isTestCaseUsed[indexCoveringMaxBugs]=1
         numberOfTestCasesUsed += 1
         numberOfBugsCovered += maxbugscovered
-    print("\n\n______________________________________________\n\n")
-    print("The Ranking of " + str(totalNumberOfTestCases) + " Test Cases is as follows:\n")
-    for i in range (totalNumberOfTestCases):
-        print("Rank", (i+1),"-> Test Case",rankList[i])
-    print("\n______________________________________________\n\n")
+    
+    return rankList
 
 

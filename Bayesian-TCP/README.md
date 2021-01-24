@@ -1,4 +1,4 @@
-# BD-TCP
+# Bayesian-TCP
 
 
 
@@ -11,7 +11,7 @@
 
 ### Dependencies
 
-BD-TCP uses following dependencies to work properly:
+Bayesian-TCP uses following dependencies to work properly:
 
 * [Numpy] - For manipulation of Fault Matrix!
 * [Config Parser] - To read configuration files
@@ -19,10 +19,12 @@ BD-TCP uses following dependencies to work properly:
 
 ### Running the code
 
-After all the dependencies has been installed and path to the file containing Fault Matrix has been set properly, run the following command to start the algorithm
+After all the dependencies has been installed and path to the file containing Fault Matrix has been set properly, run the following command to start the algorithm.
+
+Make Sure that you are in the folder containing config.ini file before you execute the following command.
 
 In linux
 ```sh
-$ python3 BD-TCP-main.py
+$ python3 Bayesian-TCP-main.py
 ```
 

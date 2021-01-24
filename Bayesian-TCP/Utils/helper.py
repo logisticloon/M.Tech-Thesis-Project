@@ -1,6 +1,5 @@
 def calculateProbabilityForEachBug(FaultMatrix, BugsCount, TestCaseCount, currentTestCase,currentBug):
     ProbTestCaseDetectsBug = FaultMatrix[currentTestCase][currentBug]/(BugsCount*TestCaseCount)
-    # print(FaultMatrix.transpose()[currentBug][:])
     if(ProbTestCaseDetectsBug == 0 ):
         return 0
     ProbBugDetected = 0
@@ -26,4 +25,3 @@ def calculateAverageProbability(FaultMatrix, BugsCount, TestCaseCount, currentTe
     averageProbability = averageProbability/BugsCount
     return averageProbability
     
-    # return 0
