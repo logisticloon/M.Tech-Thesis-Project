@@ -1,7 +1,6 @@
 """ 
 
-    This is the main python file which takes in file name containing the Fault Matrix 
-    as a command line argument.
+    This is the main python file which initiates the program.
 
 """
 
