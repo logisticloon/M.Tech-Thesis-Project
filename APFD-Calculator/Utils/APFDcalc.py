@@ -11,11 +11,16 @@ def generate(ListofLines):
 
     # print(rankList)
     # print(rankMap)
-    APFD = 1 + (1/(2*totalNumberOfTestCases))
+    # print("Inside APFD")
+    # print(modifiableFaultMatrix)
+    # print(totalNumberOfTestCases)
+    APFD = 1 + (1/(2.0*totalNumberOfTestCases))
+    # print(APFD)
     for i in range (totalNumberOfBugs):
         for j in range(totalNumberOfTestCases):
             testcaseNo = rankList[j]
             if(modifiableFaultMatrix[testcaseNo-1][i]==1):
+                # print(testcaseNo, i , j+1)
                 APFD -= (j+1)/(totalNumberOfTestCases*totalNumberOfBugs)
                 # print(APFD)
                 break

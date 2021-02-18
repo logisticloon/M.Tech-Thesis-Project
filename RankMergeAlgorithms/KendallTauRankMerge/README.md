@@ -1,4 +1,4 @@
-# BD-TCP
+# Kendall Tau based Rank Merge Algorithm
 
 
 
@@ -11,7 +11,7 @@
 
 ### Dependencies
 
-BD-TCP uses following dependencies to work properly:
+The algorithm uses following dependencies to work properly:
 
 * [Numpy] - For manipulation of Fault Matrix!
 * [Config Parser] - To read configuration files
@@ -25,6 +25,6 @@ Make Sure that you are in the folder containing config.ini file before you execu
 
 In linux
 ```sh
-$ python3 BD-TCP-main.py
+$ python3 Kendall-Tau-main.py
 ```
 
