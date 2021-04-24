@@ -1,8 +1,8 @@
-""" 
+##
+# This is the main python file which initiates the program.
+##    
 
-    This is the main python file which initiates the program.
 
-"""
 
 import sys
 import Utils.rankGen as GenRank

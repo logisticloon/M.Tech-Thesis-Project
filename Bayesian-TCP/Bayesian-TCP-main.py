@@ -22,5 +22,7 @@ if __name__=="__main__":
     for i in range (len(rankList)):
         print("Rank", (i+1),"-> Test Case",rankList[i])
     print("\n______________________________________________\n\n")
+
+    print (" ".join(map(str,rankList)))
     
 

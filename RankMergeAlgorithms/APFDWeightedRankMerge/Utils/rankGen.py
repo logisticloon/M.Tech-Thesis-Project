@@ -34,6 +34,9 @@ def generate(ListofLines):
 
     firstAPFD = calculator.calcAPFD(firstRankList)
     secondAPFD = calculator.calcAPFD(secondRankList)
+    ###### for unweighted averaging
+    firstAPFD = 1
+    secondAPFD = 1
 
     weightedScoreList = [0]*len(firstRankList)
     for testcase in range(1,len(firstRankMap)):
