@@ -3,7 +3,7 @@ This repository contains my work on my final year M.Tech Thesis
 
 ## Description
 
-The project contains implementations of different Test Case Prioritization techniques for Regression Test Prioritization.
+The project contains implementations of different Test Case Prioritization techniques used in Regression Test Prioritization.
 
 ## Getting Started
 
