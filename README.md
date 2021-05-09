@@ -12,7 +12,7 @@ The project contains implementations of different Test Case Prioritization techn
 * Python3
 * Numpy
 * Pandas
-* C++
+
 
 ### Setup 
 
